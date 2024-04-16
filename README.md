@@ -1,8 +1,20 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## hooks en react 
+### useState
+```jsx
+// este es el valor inicial del estado o por defecto (nos devuelve un array)
+const estado = useState(false)
+// valor del estado
+const valorEstado = estado[0]
+// funcion para actualizar el estado 
+const cambiarEstado = estado[1]
 
-Currently, two official plugins are available:
+------ 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+const [valorEstado, cambiarEstado] = useState(false)
+
+
+
+```
+
